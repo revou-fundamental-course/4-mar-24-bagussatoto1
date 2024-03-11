@@ -121,12 +121,12 @@ input {
   margin-right: 10px;
 }
 .img-playstore {
-  background-image: url(../images/google-play-badge.png);
+  background-image: url(../assets/google-play-badge.png);
   width: 30%;
   padding: 11px;
 }
 .img-appstore {
-  background-image: url(../images/app-store-png-logo-33116.png);
+  background-image: url(../assets/app-store-png-logo-33116.png);
   width: 25%;
   padding: 14px;
 }

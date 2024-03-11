@@ -75,15 +75,15 @@ window.onload = function () {
   document.getElementById("button-download").addEventListener("click", () => {
     const downResult = this.document.getElementById("result");
 
-    // let opt = {
-    //   margin: 0,
-    //   filename: "bmi-file.pdf",
-    //   enableLinks: true,
-    //   image: { type: "png", quality: 0.98 },
-    //   html2canvas: { scale: 2 },
-    //   jsPDF: { unit: "in", format: "a4", orientation: "portrait" },
-    // };
-    // html2pdf().from(downResult).set(opt).save();
+    let opt = {
+      margin: 0,
+      filename: "bmi-file.pdf",
+      enableLinks: true,
+      image: { type: "png", quality: 0.98 },
+      html2canvas: { scale: 2 },
+      jsPDF: { unit: "in", format: "a4", orientation: "portrait" },
+    };
+    html2pdf().from(downResult).set(opt).save();
 
     html2pdf().from(downResult).save();
   });
