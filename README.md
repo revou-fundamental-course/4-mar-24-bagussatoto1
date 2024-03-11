@@ -20,7 +20,7 @@ Aplikasi ini dibangun dengan Teknologi :
 
 # Cara Penggunaan
 
-- Klik  .
+- Klik  [DEMO](https://revou-fundamental-course.github.io/4-mar-24-bagussatoto1/).
 - Isi data seperti jenis kelamin, umur, berat badan dan tinggi badan.
 - Tekan tombol Hitung, maka akan tampil hasilnya di sebelah kanan.
 - Jika salah memasukkan data anda dapat menekan tombol reset disamping tombol hitung.
@@ -29,5 +29,5 @@ Aplikasi ini dibangun dengan Teknologi :
 # Clone repository
 
 ```
- $ git clone 
+ $ git clone https://github.com/revou-fundamental-course/4-mar-24-bagussatoto1
 ```
